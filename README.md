@@ -1,17 +1,17 @@
-<<<<<<< HEAD
-# Sample Hardhat Project
+# ETH KIPU - Trabajo Práctico Módulo 4
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Este repositorio contiene el desarrollo del **front-end** en HTML/JavaScript y los **tests** del contrato `SimpleSwap`, correspondiente al Módulo 4 del curso ETH KIPU.
 
-Try running some of the following tasks:
+## 🛠️ Tecnologías utilizadas
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
-=======
-# ETH_KIPU_Modulo4_Frontend
->>>>>>> 0ea78c81b943df4eb74bc36ffee590d1ceba34cd
+- Solidity y Hardhat
+- JavaScript
+- HTML y CSS
+- Vercel
+
+## ✨ Funcionalidades implementadas
+
+- Conexión con MetaMask
+- Intercambio de tokens `TokenETH` y `TokenKIPU`
+- Consulta de precios actuales entre los tokens
+- Tests unitarios con cobertura mayor al 50%
