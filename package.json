@@ -1,0 +1,22 @@
+{
+  "name": "eth_kipu_tp4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.13",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^16.6.1",
+    "hardhat": "^2.26.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}

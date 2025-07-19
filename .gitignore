@@ -1,0 +1,36 @@
+# Node modules
+/node_modules/
+
+# Environment variables
+.env
+
+# Hardhat cache and artifacts
+/cache/
+/artifacts/
+
+# TypeChain generated files
+/typechain/
+/typechain-types/
+
+# Coverage reports (solidity-coverage)
+/coverage/
+/coverage.json
+
+# Hardhat Ignition deployments folder for local node
+ignition/deployments/chain-31337/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional lock files (si no usás lock files)
+/package-lock.json
+/yarn.lock
+
+# VSCode settings (si usás VSCode)
+.vscode/

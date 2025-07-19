@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SimpleSwap</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.15.0/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>SimpleSwap</h1>
+    <p class="sub">Pedro Quirós – TP 4</p>
+
+    <button id="connectButton" class="btn-primary">🔗 Conectar Wallet</button>
+    <p id="walletAddress">No conectado</p>
+
+    <div class="card">
+      <h2>💰 Balances</h2>
+      <p><strong>TokenETH:</strong> <span id="balanceETH">-</span></p>
+      <p><strong>TokenKIPU:</strong> <span id="balanceKIPU">-</span></p>
+    </div>
+
+    <div class="card">
+      <h2>💱 Intercambiar Tokens</h2>
+      <input id="amountIn" type="number" step="any" placeholder="Cantidad a enviar" />
+      <div class="swap-buttons">
+        <button id="swapTokenETHToTokenKIPU" class="btn-swap">ETH a KIPU</button>
+        <button id="swapTokenKIPUToTokenETH" class="btn-swap">KIPU a ETH</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📊 Precios actuales</h2>
+      <p id="priceETHtoKIPU">ETH a KIPU: -</p>
+      <p id="priceKIPUtoETH">KIPU a ETH: -</p>
+    </div>
+  </div>
+
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>

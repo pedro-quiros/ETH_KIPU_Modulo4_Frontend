@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0f111a;
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #72aaff;
+}
+
+.sub {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #7a87b9;
+}
+
+.card {
+  background: #1c2233;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: #2c3350;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn-primary, .btn-swap {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: #4f7ef5;
+  color: white;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover, .btn-swap:hover {
+  background: #6a94ff;
+}
+
+.swap-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #7a87b9;
+}
